@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CITY ENGINEERING COLLEGE</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Croissant+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+</head>
+
+<body>
+  <header>
+    <div id="d1">
+      <img id="i" src="img/download.jpg" alt="">
+      <h1 id="h">CITY ENGINEERING COLLEGE</h1>
+    </div>
+    <div id="d2">
+      <address><img id="i2" src="img/Address.png" alt="">Kanakapura Rd, near METRO Station, Doddakallasandra, Bikasipura, Bengaluru, Karnataka 560062
+
+      </address>
+    </div>
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a class="a1" href="contact.html">Contact us</a>
+      <a class="a1" href="courses.html">Courses</a>
+      <a class="a1" href="register.html">Register</a>
+    </div>
+  </header>
+  <div id="rd1">
+    <div id="rdo1">
+      <h1>Registration</h1>
+      <form class="" action="index.html" method="post" id="regForm">
+        <div class="form">
+          <label for="name" id="namel"> Name: </label>
+          <input type="text" name="name" id="name" placeholder="full name">
+        </div>
+        <div class="form">
+          <label for="email" id="emaill">Email:</label>
+          <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+        </div>
+        <div class="form">
+          <label for="course" id="coursel">Course:</label>
+          <select name="course" id="course">
+            <option value="volvo">Computer Science</option>
+            <option value="saab">Electrical</option>
+            <option value="mercedes">Mechanical</option>
+          </select>
+        </div>
+        <div class="form">
+          <a href="register.html" class="button" onclick="myFunction()">SUBMIT</a>
+        </div>
+      </form>
+      <script>
+                        function myFunction() {
+                            document.getElementById("regForm").reset();
+                        }
+                    </script>
+    </div>
+    <div id="rdo2">
+      <h1>Guidelines For Registration</h1>
+      <li>Enter full name in name text input box , the name should be same as in adhar card</li>
+      <li>Enter the valid E-mail address , email name should be in formal </li>
+      <li>Selecte a course your intrested </li>
+      <li>Enter the submit button </li>
+    </div>
+  </div>
+  <footer>
+    <div class="icon">
+      <a href="https://www.facebook.com/cityengineeringcollege.ac.in/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://www.linkedin.com/school/city-engineering-college/" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/school/city-engineering-college/" target="_blank" class="fa fa-linkedin"></a>
+      <a href="mailto:abc@gmail.com?subject = Feedback&body = Message" class="fa fa-envelope"></a>
+    </div>
+
+    <h6 id="copy">&copy;THEJAS MURTHY.R</h6>
+
+  </footer>
+
+</body>
+
+</html>
